@@ -11,9 +11,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- Navigation -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="/" id="navbar__logo"><i class="fas fa-j"></i> <i class="fas fa-d"></i></a>
+        <a href="#" id="navbar__logo"><i class="fas fa-j"></i> <i class="fas fa-d"></i></a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -21,23 +22,24 @@
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="tech.html" class="navbar__links"> Home </a>
+            <a href="#" class="navbar__links"> Home </a>
           </li>
           <li class="navbar__item"></li>
-            <a href="tech.html" class="navbar__links"> Portfolio </a>
+            <a href="#portfolio" class="navbar__links"> Portfolio </a>
           </li>
           <li class="navbar__item"></li>
-            <a href="tech.html" class="navbar__links"> Experience </a>
+            <a href="#experience" class="navbar__links"> Experience </a>
           </li>
           <li class="navbar__btn"></li>
-            <a href="tech.html" class="button"> Contact </a>
+            <a href="#contact" class="button"> Contact </a>
           </li>
         </ul>
       </div>
     </nav>
 
     <!-- Hero Section -->
-     <div class="main">
+     <div id="home" class="main">
+     <!--<div class="main">-->
         <div class="main__container">
             <div class="main__content">
                 <h1>Hi, I'm</h1>
@@ -57,7 +59,49 @@
         </div>
      </div>
 
-     <!-- Services Section -->
+    <!-- Portfolio Section -->
+    <div id="portfolio" class="services">
+      <h1>Portfolio</h1>
+      <div class="services__container">
+        <div class="services__card">
+          <h2>Bluetooth RC Car</h2>
+          <p>Arduino, C/C++</p>
+          <button>Robotics</button>
+        </div>
+        <div class="services__card">
+          <h2>Database Project</h2>
+          <p>MySQL, Python</p>
+          <button>Database Systems</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div id="experience" class="experiences">
+      <div class="experiences__container">
+        <div class="experiences__content">
+      <h1>Experience</h1>
+      <p>California State University, San Bernardino <br>
+        Student Assistant <br>
+        September 2023 - May 2024 <br><br>
+        • Organized and hosted esports tournaments for various games, attracting 
+        dozens of student participants per event.<br>
+        • Developed and implemented marketing strategies to promote events, 
+        resulting in an increase in attendance and engagement.<br>
+        • Collaborated with school administration and student organizations to 
+        ensure smooth execution and compliance with school policies.<br>
+        
+        • Supervised intramural games, ensuring the safety and well-being of 
+        dozens of participants.<br>
+        • Conducted safety briefings and monitored activities to prevent injuries, 
+        providing immediate assistance if accidents occurred.<br>
+        • Completed dozens of hours of training in emergency response, including 
+        first aid and CPR certification.<br>
+        • Coordinated with other staff members to manage schedules, equipment, and 
+        facilities for intramural sports.</p>
+    </div>
+
+     <!-- Services Section 
       <div class="services">
         <h1>Portfolio</h1>
         <div class="services__container">
@@ -72,7 +116,7 @@
           <button>Database Systems</button>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <!-- Footer Section -->
      <div class="footer__container">
@@ -88,6 +132,9 @@
         </div>
       </div>
        
+          <!-- Contact Section -->
+           <div id="contact" class="footer__container">
+            <h1></h1>
           <div class="social__icons">
             <a href="mailto:jsdanny.dz@gmail.com" class="social__icon--link" target="_blank">
               <i class="fas fa-envelope"></i>
