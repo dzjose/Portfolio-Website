@@ -405,7 +405,7 @@
 .services__card:nth-child(3) {
     background-image: linear-gradient(to bottom, 
     rgba(0,0,0,0) 0%, 
-    rgba(17,17,17,0.6) 100%), url('/images/Personal%20Budget%20Tracker.jpg');
+    rgba(17,17,17,0.6) 100%), url('/images/PersonalBudgetTracker.jpg');
 }
 
 .services h2 {
