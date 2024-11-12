@@ -404,7 +404,7 @@
 .services__card:nth-child(3) {
     background-image: linear-gradient(to bottom, 
     rgba(0,0,0,0) 0%, 
-    rgba(17,17,17,0.6) 100%), url('images/Personal Budget Tracker.jpg');
+    rgba(17,17,17,0.6) 100%), url('images/PersonalBudgetTracker.jpg');
 }
 
 .services h2 {
@@ -512,15 +512,15 @@
 
   /* Set individual backgrounds for each card */
 .services__card:nth-child(1) .card-front {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/RcCar.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('images/RcCar.jpg');
 }
 
 .services__card:nth-child(2) .card-front {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/SQLphoto.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('images/SQLphoto.jpg');
 }
 
 .services__card:nth-child(3) .card-front {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('/images/Personal Budget Tracker.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%), url('images/PersonalBudgetTracker.jpg');
 }
 
 
